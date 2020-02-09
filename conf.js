@@ -1,7 +1,7 @@
 // An example configuration file.
 exports.config = {
   directConnect: true,
-
+  
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
     'browserName': 'firefox'
@@ -12,7 +12,7 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['myFirstTestCase.js'],
+  specs: ['calculatorTestcase.js'],
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
